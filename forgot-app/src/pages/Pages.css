@@ -1,0 +1,44 @@
+.ak{
+    /* margin:150px; */
+    display: "flex";
+   align-items: center;
+   /* flex-direction: column; 
+    margin-left: 200px; */
+    box-shadow: 10px 10px 5px 10px lightblue;
+}
+.kk{
+    /* margin:150px; */
+    display: "flex";
+   align-items: center;
+   /* flex-direction: column;  */
+    /* margin-left: 200px; */
+    box-shadow: 10px 10px 5px 10px lightblue;
+}
+
+Box{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    box-shadow: 10px 10px;
+}
+Card {
+    box-shadow: 10px 10px 5px 10px lightblue;
+}
+.sign{
+    background-color: rgb(23, 152, 216);
+    color: aliceblue;
+    border-radius: 10%;
+}
+Grid{
+    color: black;
+}
+.sign:hover{
+    background-color: rgb(32, 14, 234);
+    transition-duration: 2s;
+}
+.text-for:hover{
+    color: rgb(224, 20, 20);
+    
+}

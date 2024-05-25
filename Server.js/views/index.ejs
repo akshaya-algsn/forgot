@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    var status ='<%- JSON.stringify(status) %>';
+    if(JSON.parse(status) == "verified"){
+        if(confirm ("Do you want to login"))
+        window.location.href = "http://localhost:3000/";
+    }
+
+</script>
+<body>
+   
+    <form class="box"action="" method="post">
+        <h1> Your mail :</h1>
+        <h3> <%= email%></h3>
+        <input class="box1" type="password" name="password" id="password" placeholder="password here"/>
+        <br>   </br>
+        <input class="box2" type="password" name="Confirm-password" id="password" placeholder="confirm your password"/>
+        <br>   </br>
+        <input class="box3" type="submit" value="submit"/>
+    </form>
+    <style>
+        .box{
+            margin-top: 15%;
+            margin-left: 25%;
+           
+            width:30%;
+            height:30%;
+            box-shadow: 10px 10px  rgb(3, 133, 172);
+            background-color: azure;
+            align-items: center;
+            border-color: rgb(17, 39, 233);
+        }
+        .box1{
+            margin-left: 70px;
+           border-color: blue;
+        }
+        .box2{
+            margin-left: 70px;
+            border-color: blue;
+        } 
+        .box3{
+            margin: 10px;
+            margin-left: 38%; 
+            background-color: rgb(36, 177, 220); 
+        }
+        
+
+    </style>
+    
+</body>
+</html>
